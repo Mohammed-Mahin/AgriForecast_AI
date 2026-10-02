@@ -1,0 +1,38 @@
+INFO:     Started server process [1648]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Successfully loaded ML model and encoders!
+Loaded 204 historical price series (205020 records, 2024-2026).
+INFO:     127.0.0.1:61364 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61365 - "GET /api/mandis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61366 - "GET /api/forecasts/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61367 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61368 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61369 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61371 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:61372 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:61373 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61375 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61376 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59649 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59650 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59650 - "GET /api/mandis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59658 - "GET /api/forecasts/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59658 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52967 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52967 - "GET /api/mandis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54970 - "GET /api/forecasts/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54980 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55647 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /api/mandis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64012 - "GET /api/forecasts/trending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64012 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64012 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56590 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63090 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54263 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51868 - "POST /api/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54404 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59482 - "POST /api/auth/register HTTP/1.1" 200 OK

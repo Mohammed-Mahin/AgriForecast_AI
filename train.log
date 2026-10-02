@@ -1,0 +1,16 @@
+--- 1. Data Cleaning & Preprocessing ---
+Initial raw record count: 205020
+Record count after deduplication: 205020
+Record count after IQR filtering: 204028
+Final cleaned record count: 204028
+--- 2. Feature Engineering ---
+Training sample rows: 60000
+--- 3. Training Weighted Stacking Ensemble (xgb, lgb, catboost) ---
+Traceback (most recent call last):
+  File "C:\Users\Mohammed\Downloads\Major_Project\train_model.py", line 429, in <module>
+    train_and_save_model()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mohammed\Downloads\Major_Project\train_model.py", line 360, in train_and_save_model
+    for name, fitted in ensemble_model.estimators_:
+        ^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable XGBRegressor object
